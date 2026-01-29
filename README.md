@@ -41,3 +41,19 @@ Features-
 PLAY/ SCORES TRACKING
 CLEAR
 EXIT
+
+Name of the Project- X_O_GAME
+Author- Riya Rajkumar Gupta
+Programming language used- C++
+
+Description
+Console-based Tic-Tac-Toe for 2 players.
+Players take turns to place X or O.
+Detects win or draw automatically.
+
+Features
+Board reset for each new game.
+Validates input (1-9, empty positions only).
+Displays 3x3 grid.
+Option to play again or exit.
+
