@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 using namespace std;
-class Convertor
+class Converter
 {    
     public:
 	int decimal , binary;
@@ -14,7 +14,7 @@ class Convertor
 };
 int main()
 {
-   Convertor object;
+   Converter object;
    int choice;
 do{
    cout<<"1) BINARY_TO_DECIMAL 2) DECIMAL_TO_BINARY 3) CLEAR 4) EXIT"<<endl;
@@ -36,7 +36,7 @@ do{
 }while(choice!=4);
 }//int main
 
-string Convertor::onlydigits()
+string Converter::onlydigits()
 {
 	string n;
 	while(true)
@@ -55,7 +55,7 @@ string Convertor::onlydigits()
 	}
 }
 
-int Convertor::choicevalidation()
+int Converter::choicevalidation()
 {
 	string n;
 	while(true)
@@ -82,7 +82,7 @@ int Convertor::choicevalidation()
 	}
 }
 
-int Convertor::decimalvalidation()
+int Converter::decimalvalidation()
 {       
          string n;
          while(true)
@@ -100,7 +100,7 @@ int Convertor::decimalvalidation()
 }
 
 
-int Convertor::binaryvalidation()
+int Converter::binaryvalidation()
 {
 	 string n;
 	 while(true)
@@ -125,7 +125,7 @@ int Convertor::binaryvalidation()
 	 }	 
 }
 
-void Convertor::binarytodecimal()
+void Converter::binarytodecimal()
 {
 	cout<<"ENTER NUMBER"<<endl;
 	binary=binaryvalidation();
@@ -147,7 +147,7 @@ void Convertor::binarytodecimal()
 	cout<<"DECIMAL FORM = "<<ans<<endl;
 }
 
-void Convertor::decimaltobinary()
+void Converter::decimaltobinary()
 {
 	cout<<"ENTER NUMBER"<<endl;
     decimal =decimalvalidation();
