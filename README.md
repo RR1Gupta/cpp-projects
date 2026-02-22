@@ -1,5 +1,13 @@
-# cpp-projects
-This repository contains personal C++ projects. Each project is created while learning new concepts and improving coding skills.
+# C++ Projects
+
+This repository contains personal C++ projects:
+
+- AMT Management System
+- Stone Paper Scissors
+- X O Game
+- Number System Converter
+This repository contains personal C++ projects.
+ Each project is created while learning new concepts and improving coding skills.
 
 Name of the Project- AMT MANAGEMENT SYSTEM
 Author- Riya Rajkumar Gupta
@@ -21,6 +29,7 @@ temporary file created- temp.txt( temporary file used, required when changes are
 098765432*1234*0
 999999999*4564*9
 888888888*0987*2
+
 
 Name of the Project- STONE PAPER SCISSORS
 Author- Riya Rajkumar Gupta
